@@ -33,26 +33,26 @@
 ### •	Save the cleaned and preprocessed dataset to an Excel file for further analysis.
 ## Microsoft Power BI Section: Visualization and Analysis
 ### 1. Checking All Columns
-•	Validate the structure, data types, and content of each column to ensure data integrity.
+### •	Validate the structure, data types, and content of each column to ensure data integrity.
 ### 2. Creating Metrics
-•	Generate key metrics to describe user behavior and performance:
-o	Recency: Days since the last transaction.
-o	Frequency: Number of transactions.
-o	Monetary: Total monetary value of transactions.
-o	AvgServiceUsage: Average number of services used.
-o	SuccessRate: Ratio of successful transactions.
-o	AppErrorRate: Application-related errors as a percentage of total transactions.
-o	UserErrorRate: User-induced errors as a percentage of total transactions.
-o	BalanceErrorRate: Balance-related errors as a percentage of total transactions.
-o	RFM_Segment: RFM segmentation score.
-o	Age: User’s age derived from birthdate.
-o	UniqueServices: Number of unique services used.
+### •	Generate key metrics to describe user behavior and performance:
+### o	Recency: Days since the last transaction.
+### o	Frequency: Number of transactions.
+### o	Monetary: Total monetary value of transactions.
+### o	AvgServiceUsage: Average number of services used.
+### o	SuccessRate: Ratio of successful transactions.
+### o	AppErrorRate: Application-related errors as a percentage of total transactions.
+### o	UserErrorRate: User-induced errors as a percentage of total transactions.
+### o	BalanceErrorRate: Balance-related errors as a percentage of total transactions.
+### o	RFM_Segment: RFM segmentation score.
+### o	Age: User’s age derived from birthdate.
+### o	UniqueServices: Number of unique services used.
 ### 3. Creating Segmentation Columns
-•	Add segmentation columns to categorize users based on RFM analysis:
-o	Recency Segment
-o	Frequency Segment
-o	Monetary Segment
-4. Creating Charts ; Visualize key insights through the following charts:
+### •	Add segmentation columns to categorize users based on RFM analysis:
+### o	Recency Segment
+### o	Frequency Segment
+### o	Monetary Segment
+### 4. Creating Charts ; Visualize key insights through the following charts:
 ### 4.1. Count of Recency Segment by Recency Segment
 •	Show the distribution of users across recency segments.
 ![image](https://github.com/user-attachments/assets/62cc838b-e093-42c0-95e7-4c9a8d6d073e)
@@ -89,61 +89,61 @@ o	Monetary Segment
 •	Visualize user acquisition trends over time.
 ![image](https://github.com/user-attachments/assets/cb637223-7883-4d4a-8c94-5401f0296a7d)
 ## Insights 
-1. User Activity Insights
-•	Recency Analysis (4.1):
-o	Recent Users: 12.1K users have interacted with the platform recently, indicating strong engagement.
-o	Dormant Users: 9.5K users show a decline in engagement, suggesting the need for re-engagement strategies.
-o	Inactive Users: 2.7K users are completely disengaged, requiring targeted retention or win-back campaigns.
-•	Frequency Analysis (4.2):
-o	Infrequent Users: 12.1K users have minimal interaction, reflecting potential for upselling or encouraging higher usage.
-o	Moderate Users: 9.2K users represent a steady usage pattern, possibly due to balanced needs.
-o	Frequent Users: 3.0K frequent users are likely power users who contribute significantly to platform activity.
-•	Monetary Analysis (4.3):
-o	Low-Value Users: 12.2K users contribute minimally to revenue, highlighting opportunities for monetization strategies.
-o	Medium-Value Users: 11.0K users form the majority of mid-tier customers, which can be a stable revenue base.
-o	High-Value Users: 1.1K users are key contributors to revenue, requiring personalized attention and retention strategies.
-2. Demographics and Behavior Insights
-•	Demographics (4.4):
-o	Gender: The majority of users are male.
-o	Age: Most users are aged between 25-40, with 35 being the most common age. This indicates a target audience of young to middle-aged adults.
-•	Top Services (4.5):
-o	The most popular services are C2C Transfers, followed by ChargeMCI, ChargeMTN, ETC, and others.
-	Actionable Insight: Focus on enhancing these services and cross-promoting lesser-used services to increase adoption.
-3. Device and Platform Insights
-•	Mobile Brands (4.6):
-o	Top 3 Brands: Samsung, Xiaomi, and Huawei dominate the user base.
-	Actionable Insight: Optimize app performance for these brands and prioritize compatibility testing.
-•	Device Models (4.7):
-o	The most common models are Samsung SM-A107F, Redmi Note 8, and Samsung SM-A325F.
-	Actionable Insight: Ensure seamless app functionality on these models to enhance user experience.
-•	Operating Systems (4.8):
-o	Android Users: 22.6K dominate the platform.
-o	PWA Users: 1.5K rely on progressive web apps.
-o	iOS Users: 0.2K are minimal, indicating low engagement on Apple devices.
-	Actionable Insight: Focus on Android optimization and consider strategies to increase iOS user engagement.
-4. Performance Metrics
-•	Success and Error Rates (4.9):
-o	Success Rate: 82% of transactions are successful, showing reliable system performance.
-o	User Error Rate: At 1%, it indicates a manageable level of user mistakes.
-o	App Error Rate: At 3%, improvements can enhance reliability further.
-o	Balance Error Rate: Almost negligible at 0%.
-	Actionable Insight: Focus on reducing app errors through updates and user-friendly interfaces.
-5. User Acquisition Trends
-•	First App Install Date (4.11):
-o	Peak Year: 2018 with 4.7K users, likely due to effective campaigns or service introduction.
-o	Minimum Year: 2014 (the platform's launch year) with only 0.2K users.
-o	Recent Year: 2023 saw a decline to 0.8K users.
-	Actionable Insight: Evaluate and revamp acquisition strategies to regain momentum in user onboarding.
+### 1. User Activity Insights
+### •	Recency Analysis (4.1):
+### o	Recent Users: 12.1K users have interacted with the platform recently, indicating strong engagement.
+### o	Dormant Users: 9.5K users show a decline in engagement, suggesting the need for re-engagement strategies.
+### o	Inactive Users: 2.7K users are completely disengaged, requiring targeted retention or win-back campaigns.
+### •	Frequency Analysis (4.2):
+### o	Infrequent Users: 12.1K users have minimal interaction, reflecting potential for upselling or encouraging higher usage.
+### o	Moderate Users: 9.2K users represent a steady usage pattern, possibly due to balanced needs.
+### o	Frequent Users: 3.0K frequent users are likely power users who contribute significantly to platform activity.
+### •	Monetary Analysis (4.3):
+### o	Low-Value Users: 12.2K users contribute minimally to revenue, highlighting opportunities for monetization strategies.
+### o	Medium-Value Users: 11.0K users form the majority of mid-tier customers, which can be a stable revenue base.
+### o	High-Value Users: 1.1K users are key contributors to revenue, requiring personalized attention and retention strategies.
+### 2. Demographics and Behavior Insights
+### •	Demographics (4.4):
+### o	Gender: The majority of users are male.
+### o	Age: Most users are aged between 25-40, with 35 being the most common age. This indicates a target audience of young to middle-aged adults.
+### •	Top Services (4.5):
+### o	The most popular services are C2C Transfers, followed by ChargeMCI, ChargeMTN, ETC, and others.
+### 	Actionable Insight: Focus on enhancing these services and cross-promoting lesser-used services to increase adoption.
+### 3. Device and Platform Insights
+### •	Mobile Brands (4.6):
+### o	Top 3 Brands: Samsung, Xiaomi, and Huawei dominate the user base.
+### 	Actionable Insight: Optimize app performance for these brands and prioritize compatibility testing.
+### •	Device Models (4.7):
+### o	The most common models are Samsung SM-A107F, Redmi Note 8, and Samsung SM-A325F.
+### 	Actionable Insight: Ensure seamless app functionality on these models to enhance user experience.
+### •	Operating Systems (4.8):
+### o	Android Users: 22.6K dominate the platform.
+### o	PWA Users: 1.5K rely on progressive web apps.
+### o	iOS Users: 0.2K are minimal, indicating low engagement on Apple devices.
+### 	Actionable Insight: Focus on Android optimization and consider strategies to increase iOS user engagement.
+### 4. Performance Metrics
+### •	Success and Error Rates (4.9):
+### o	Success Rate: 82% of transactions are successful, showing reliable system performance.
+### o	User Error Rate: At 1%, it indicates a manageable level of user mistakes.
+### o	App Error Rate: At 3%, improvements can enhance reliability further.
+### o	Balance Error Rate: Almost negligible at 0%.
+### 	Actionable Insight: Focus on reducing app errors through updates and user-friendly interfaces.
+### 5. User Acquisition Trends
+### •	First App Install Date (4.11):
+### o	Peak Year: 2018 with 4.7K users, likely due to effective campaigns or service introduction.
+### o	Minimum Year: 2014 (the platform's launch year) with only 0.2K users.
+### o	Recent Year: 2023 saw a decline to 0.8K users.
+### 	Actionable Insight: Evaluate and revamp acquisition strategies to regain momentum in user onboarding.
 ## Overall Strategic Recommendations
-1.	Engagement and Retention:
-o	Re-engage dormant and inactive users through targeted marketing and personalized offers.
-o	Encourage infrequent users to increase transactions with loyalty programs or usage incentives.
-2.	Revenue Growth:
-o	Focus on converting low-value users to medium- or high-value segments through promotions and tailored recommendations.
-3.	Service Optimization:
-o	Invest in the enhancement of top-used services and cross-promote lesser-used ones.
-4.	Platform Performance:
-o	Optimize for Android users and focus on resolving app errors to improve user satisfaction.
-5.	User Acquisition:
-o	Analyze factors behind the 2018 peak and replicate successful strategies to boost future growth.
+### 1.	Engagement and Retention:
+### o	Re-engage dormant and inactive users through targeted marketing and personalized offers.
+### o	Encourage infrequent users to increase transactions with loyalty programs or usage incentives.
+### 2.	Revenue Growth:
+### o	Focus on converting low-value users to medium- or high-value segments through promotions and tailored recommendations.
+### 3.	Service Optimization:
+### o	Invest in the enhancement of top-used services and cross-promote lesser-used ones.
+### 4.	Platform Performance:
+### o	Optimize for Android users and focus on resolving app errors to improve user satisfaction.
+### 5.	User Acquisition:
+### o	Analyze factors behind the 2018 peak and replicate successful strategies to boost future growth.
 
